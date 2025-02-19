@@ -1,4 +1,4 @@
-package com.github.walkvoid.easymoney.db.dao;
+package com.github.walkvoid.easymoney.datafetch.channel.eastmoney;
 
 /**
  * @author walkvoid

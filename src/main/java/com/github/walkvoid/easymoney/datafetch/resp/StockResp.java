@@ -1,4 +1,4 @@
-package com.github.walkvoid.easymoney.api.resp;
+package com.github.walkvoid.easymoney.datafetch.resp;
 
 import java.io.Serializable;
 
@@ -8,5 +8,5 @@ import java.io.Serializable;
  * @date 2025/2/6
  * @desc 
  */
-public class StockInfoResp implements Serializable {
+public class StockResp implements Serializable {
 }

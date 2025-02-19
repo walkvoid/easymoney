@@ -1,4 +1,4 @@
-package com.github.walkvoid.easymoney.api.req;
+package com.github.walkvoid.easymoney.datafetch.req;
 
 import com.github.walkvoid.easymoney.enums.MarketType;
 
@@ -8,7 +8,7 @@ import com.github.walkvoid.easymoney.enums.MarketType;
  * @date 2025/2/6
  * @desc
  */
-public class StockInfoReq {
+public class StockReq {
 
     private Integer page;
 

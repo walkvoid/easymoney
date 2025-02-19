@@ -1,4 +1,4 @@
-package com.github.walkvoid.easymoney.api.juhe.req;
+package com.github.walkvoid.easymoney.datafetch.channel.juhe.req;
 
 import java.io.Serializable;
 
