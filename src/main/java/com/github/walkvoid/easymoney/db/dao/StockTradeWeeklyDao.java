@@ -5,6 +5,8 @@ import com.github.walkvoid.easymoney.db.mapper.StockTradeWeeklyMapper;
 import javax.annotation.Resource;
 import org.springframework.stereotype.Repository;
 
+
+
 @Repository
 public class StockTradeWeeklyDao {
 
