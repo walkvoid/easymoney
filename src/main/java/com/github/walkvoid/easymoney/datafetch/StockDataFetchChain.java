@@ -15,13 +15,11 @@ import java.util.List;
  */
 public class StockDataFetchChain implements StockDataFetcher {
 
-    StockDataFetcher fetcher;
-
-
+    StockDataFetcher firstFetcher;
 
     @Override
     public CommonPageResponse<StockResp> fetchStock(PageRequest<StockReq> pageRequest) {
-        CommonPageResponse<StockResp> stockRespCommonPageResponse = fetcher.fetchStock(pageRequest);
+
         return null;
     }
 
