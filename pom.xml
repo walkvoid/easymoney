@@ -51,6 +51,10 @@
             <artifactId>wvframework-models</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.github.walkvoid.wvframework</groupId>
+            <artifactId>wvframework-core</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>

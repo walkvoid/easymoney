@@ -5,7 +5,7 @@ import com.github.walkvoid.easymoney.db.mapper.StockTradeTimeMapper;
 import javax.annotation.Resource;
 import org.springframework.stereotype.Repository;
 /**
- * @author jiangjunqing
+ * @author walkvoid
  * @date 2025/2/19
  * @description: 股票交易时间DAO
  * @version:

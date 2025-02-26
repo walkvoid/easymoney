@@ -1,11 +1,15 @@
 package com.github.walkvoid.easymoney.db.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @ApiModel(description = "股票基本信息模型")
-public class Stock {
+@TableName("stock")
+public class Stock implements Serializable {
 
     @ApiModelProperty(value = "主键ID", example = "1", required = true)
     private Long id;

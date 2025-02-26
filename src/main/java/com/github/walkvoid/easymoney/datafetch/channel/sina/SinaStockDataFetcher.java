@@ -9,7 +9,7 @@ import com.github.walkvoid.wvframework.models.PageRequest;
 import org.springframework.stereotype.Component;
 
 /**
- * @author jiangjunqing
+ * @author walkvoid
  * @date 2025/2/19
  * @description:
  * @version:

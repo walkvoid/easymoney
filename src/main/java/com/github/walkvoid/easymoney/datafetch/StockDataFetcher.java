@@ -6,7 +6,7 @@ import com.github.walkvoid.wvframework.models.CommonPageResponse;
 import com.github.walkvoid.wvframework.models.PageRequest;
 
 /**
- * @author jiangjunqing
+ * @author walkvoid
  * @date 2025/2/19
  * @description:
  * @version:

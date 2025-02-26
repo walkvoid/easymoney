@@ -4,12 +4,14 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.github.walkvoid.easymoney.db.entity.Stock;
 import com.github.walkvoid.easymoney.db.entity.StockTradeMonthly;
 import com.github.walkvoid.easymoney.db.entity.StockTradeQuarterly;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author jiangjunqing
+ * @author walkvoid
  * @date 2025/2/19
  * @description:
  * @version:
  */
+@Mapper
 public interface StockTradeMonthlyMapper extends BaseMapper<StockTradeMonthly> {
 }

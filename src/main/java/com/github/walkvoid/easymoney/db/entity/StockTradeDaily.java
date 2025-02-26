@@ -1,5 +1,6 @@
 package com.github.walkvoid.easymoney.db.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
@@ -7,14 +8,14 @@ import java.time.LocalDate;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 /**
  * @ApiModel(description = "股票每日统计信息实体类")
  */
 @ApiModel(description = "股票每日统计信息实体类")
 @Data
-public class StockStatsDaily implements Serializable {
+@TableName("stock_trade_daily")
+public class StockTradeDaily implements Serializable {
 
     @ApiModelProperty(value = "主键ID", required = true, example = "1")
     private Long id;

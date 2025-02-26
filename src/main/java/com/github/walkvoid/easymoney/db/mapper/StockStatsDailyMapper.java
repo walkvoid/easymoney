@@ -1,15 +1,15 @@
 package com.github.walkvoid.easymoney.db.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.github.walkvoid.easymoney.db.entity.Stock;
-import com.github.walkvoid.easymoney.db.entity.StockStatsDaily;
-import com.github.walkvoid.easymoney.db.entity.StockTradeQuarterly;
+import com.github.walkvoid.easymoney.db.entity.StockTradeDaily;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author jiangjunqing
+ * @author walkvoid
  * @date 2025/2/19
  * @description:
  * @version:
  */
-public interface StockStatsDailyMapper extends BaseMapper<StockStatsDaily> {
+@Mapper
+public interface StockStatsDailyMapper extends BaseMapper<StockTradeDaily> {
 }
