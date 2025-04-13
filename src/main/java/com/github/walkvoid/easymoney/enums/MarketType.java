@@ -8,10 +8,9 @@ package com.github.walkvoid.easymoney.enums;
  */
 public enum MarketType {
 
-     SH,
-     SZ,
-     BJ,
-     HK,
-     US,
+     SH, //上交所
+     SZ, //深交所
+     BJ, //北交所
+     HK, //港交所
     ;
 }
